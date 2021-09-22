@@ -2,9 +2,11 @@ body {
     background-image: url(../responsiveCSS1/imagens/bg.jpg);
     background-size: cover;
     background-position: top center;
+    background-repeat: no-repeat;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    min-height: 100vh;
 }
 
 .main {
@@ -20,6 +22,8 @@ header {
 }
 header .menu-icon {
     display: none;
+    position: absolute;
+    left: 20px;
 }
 header .ham {
     width: 40px;
@@ -99,4 +103,83 @@ nav a {
     position: relative;
     margin-left: -100px;
     z-index: 1;
+}
+
+/* Responsive Tablet*/
+@media (max-width: 850px) {
+
+    header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .content-area {
+        text-align: center;
+    }
+    .content-area h1 {
+        margin-top: 0;
+    }
+    .content-area p {
+        margin: 0 40px;
+    }
+    .content-area .cta {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .phone-area {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .phone-area .phone1 {
+        top: 0;
+        margin: 0 5px;
+        height: 550px;
+    }
+    .phone-area .phone2 {
+        margin-left: 0;
+        margin: 0 5px;
+        height: 550px;
+    }
+}
+
+/* Responsive Phone */
+@media (max-width: 650px) {
+ 
+    header .menu-icon {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    header .logo {
+        width: 100%;
+        text-align: center;
+    }
+    header .logo img {
+        width: 200px;
+    }
+
+    .content-area h1 {
+        font-size: 32px;
+    }
+    .content-area .cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone-area {
+        margin-bottom: 50px;
+    }
+    .phone-area .phone1 {
+        top: 10px;
+        height: 450px
+        
+    }
+    .phone-area .phone2 {
+        height: 450px;
+        margin-left: -150px;
+    }
 }
