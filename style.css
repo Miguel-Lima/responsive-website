@@ -2,4 +2,22 @@ body {
     background-image: url(../responsiveCSS1/imagens/bg.jpg);
     background-size: cover;
     background-position: top center;
+    margin: 0;
+}
+
+.main {
+    background-color: bisque;
+    width: 100%;
+    max-width: 1015px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+}
+header .logo {
+    width: 200px;
+}
+header .logo img {
+    width: 100%;
 }
