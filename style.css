@@ -4,6 +4,7 @@ body {
     background-position: top center;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
 
 .main {
@@ -56,11 +57,34 @@ nav a {
     display: flex;
 }
 
+.content-area {
+    flex: 1;
+}
+.content-area h1 {
+    font-size: 40px;
+}
+
+.content-area .cta {
+    display: flex;
+}
+.cta .button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #29be56;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .phone-area .phone1 {
     height: 400px;
     width: auto;
     position: relative;
     z-index: 2;
+    top: 10px;
 }
 .phone-area .phone2 {
     height: 400px;
