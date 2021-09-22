@@ -12,7 +12,7 @@ body {
     max-width: 1015px;
     margin: auto;
 }
-
+/* Parte superior do website */
 header {
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ nav a {
     text-decoration: none;
 }
 
-
+/* Lado direito, Textos e Botão */
 .container {
     display: flex;
 }
@@ -62,10 +62,12 @@ nav a {
 }
 .content-area h1 {
     font-size: 40px;
+    margin-top: 80px;
 }
 
 .content-area .cta {
     display: flex;
+    margin-top: 40px;
 }
 .cta .button {
     width: 200px;
@@ -79,15 +81,20 @@ nav a {
     justify-content: center;
     align-items: center;
 }
+.cta .button-blue {
+    background-color: #3498db;
+}
+
+/* Phones */
 .phone-area .phone1 {
-    height: 400px;
+    height: 500px;
     width: auto;
     position: relative;
     z-index: 2;
     top: 10px;
 }
 .phone-area .phone2 {
-    height: 400px;
+    height: 500px;
     width: auto;
     position: relative;
     margin-left: -100px;
