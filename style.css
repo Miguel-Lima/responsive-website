@@ -50,3 +50,22 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
+
+
+.container {
+    display: flex;
+}
+
+.phone-area .phone1 {
+    height: 400px;
+    width: auto;
+    position: relative;
+    z-index: 2;
+}
+.phone-area .phone2 {
+    height: 400px;
+    width: auto;
+    position: relative;
+    margin-left: -100px;
+    z-index: 1;
+}
