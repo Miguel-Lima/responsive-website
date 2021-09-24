@@ -1,4 +1,4 @@
-# Complete
+
 </br>
  
  <div align="center">
@@ -7,6 +7,15 @@
 
  </div>
  
-### Project focused on responsiveness. Using media query for different device situations.
+## 🚀 Technologies 
+ Technologies used in this project
+ - ✔️ HTML
+ - ✔️ CSS
+ - 💥 Responsiveness
 
-#### Used HTML | CSS 
+# About this project
+ > - A structure was made in HTML and CSS always thinking about responsiveness.
+ > - Your screen can be accessible to both Desktops, Tablets and Mobile Phones.
+ > - Because it is a project with ONLY HTML and CSS focused on working the responsive system, there will be no interaction with the user.
+
+# Full responsive site ✔️ 💥
